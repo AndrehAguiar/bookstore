@@ -1,0 +1,16 @@
+<div class="shadow-sm row">
+    <div class="col-md-6 p-3">
+        <img src='{{book.image}}' alt="" class="bd-placeholder-img card-img-top" width="100%">
+    </div>
+    <div class="card-body col-md-6">
+        <p class="card-text">{{book.name}}</p>
+        <p class="card-text">{{book.category}}</p>
+        <p class="card-text">{{book.quantity}}</p>
+        <p class="card-text">{{book.price | currency:'BRL'}}</p>
+        <div class="btn-group">
+            <button type="button" class="btn btn-sm btn-outline-primary">Detalhes</button>
+            <button type="button" class="btn btn-sm btn-primary">Comprar</button>
+        </div>
+
+    </div>
+</div>
